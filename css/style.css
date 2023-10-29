@@ -84,3 +84,19 @@ nav ul a {
     max-width: 50rem;
     position: relative;
 }
+
+.hero-text h1 {
+    font-size: 5.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: var(--black);
+}
+
+.hero-text p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--black);
+    font-family: var(--font);
+}
