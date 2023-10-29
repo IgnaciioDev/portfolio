@@ -69,3 +69,18 @@ nav ul a {
     justify-content: center;
     position: relative;
 }
+
+.hero-main {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    position: relative;
+}
