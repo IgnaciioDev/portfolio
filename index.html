@@ -19,18 +19,45 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Project</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mobile-menu">
+                    <path d="M4 6l16 0"></path>
+                    <path d="M4 12l16 0"></path>
+                    <path d="M4 18l16 0"></path>
+                </svg>
+            </li>
         </ul>
     </nav>
 
+    <div class="mobile-nav closed-menu">
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-x">
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+            </svg>
+        </span>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 
     <section id="home" class="hero">
         <div class="container">
             <div class="content">
                 <div class="hero-main">
                     <div class="hero-text">
-                        <h1>Front-End Developer</h1>
+                        <p class="hero-text__p1">Hello, I'm</p>
+                        <h1>Ignacio</h1>
+                        <p class="hero-text__p2">Front-End Developer</p>
                         <!-- <img src="#" alt="#"> -->
-                        <p>Hola, Soy Ignacio. Un apasionado Desarrollador Front-end en Chile.</p>
+                        <!-- <p>Hola, Soy Ignacio. Un apasionado Desarrollador Front-end en Chile.</p> -->
+                        <div class="btn-hero">
+                            <button class="btn btn-color__2">Download CV</button>
+                            <button class="btn btn-color__1">Contact Info</button>
+                        </div>
                         <span>
                             <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/ignacio-castroo/">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin">
@@ -51,17 +78,20 @@
                     <div class="hero-img"></div>
                 </div>
                 <div class="skills">
+                    <p>Tech Stack</p>
                     <div class="logos">
                         <ul>
-                            <li><img src="#" alt="#"></li>
-                            <li><img src="#" alt="#"></li>
-                            <li><img src="#" alt="#"></li>
-                            <li><img src="#" alt="#"></li>
+                            <li><img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon"></li>
+                            <li><img src="https://skillicons.dev/icons?i=js,ts" alt="skill-icon"></li>
+                            <li><img src="https://skillicons.dev/icons?i=react,next" alt="skill-icon"></li>
+                            <li><img src="https://skillicons.dev/icons?i=tailwind,scss" alt="skill-icon"></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
